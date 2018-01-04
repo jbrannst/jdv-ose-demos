@@ -8,7 +8,7 @@ oc delete is jboss-datavirt63-openshift
 oc create -f https://raw.githubusercontent.com/cvanball/jdv-ose-demo/master/extensions/is.json
 echo 'Creating the s2i quickstart template. This will live in the openshift namespace and be available to all projects'
 oc delete template datavirt63-ext-mysql-psql-s2i
-oc create -n openshift -f https://raw.githubusercontent.com/cvanball/jdv-ose-demos/master/templates/datavirt63-ext-mysql-psql-s2i.json
+oc create -n openshift -f https://raw.githubusercontent.com/jbrannst/jdv-ose-demos/patch-1/templates/datavirt63-ext-mysql-psql-s2i.json
 oc login -u developer -p developer
 echo 'Creating a new project called jdv-datafederation-demo'
 oc new-project jdv-datafederation-demo
