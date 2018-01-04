@@ -688,7 +688,7 @@
                             "failurePolicy": "Abort",
                             "execNewPod": {
                                 "containerName": "${APPLICATION_NAME}",
-                                "command": [ "bash","-c","$HOME/source/extensions/extras/populatedbms.sh" ]
+                                "command": [ "bash","-c","/tmp/src/extensions/extras/populatedbms.sh" ]
                             }
                         }
                     }
