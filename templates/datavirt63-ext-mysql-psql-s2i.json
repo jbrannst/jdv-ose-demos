@@ -55,14 +55,14 @@
             "description": "The URL of the repository with your application source code.",
             "displayName": "Git Repository URL",
             "name": "SOURCE_REPOSITORY_URL",
-            "value": "https://github.com/cvanball/jdv-ose-demos",
+            "value": "https://github.com/jbrannst/jdv-ose-demos",
             "required": true
         },
         {
             "description": "Set this to a branch name, tag or other ref of your repository if you are not using the default branch.",
             "displayName": "Git Reference",
             "name": "SOURCE_REPOSITORY_REF",
-            "value": "master",
+            "value": "patch-1",
             "required": false
         },
         {
@@ -76,14 +76,14 @@
             "description": "The URL of the repository with source code for the extensions image.  The image should have all modules, etc., placed in the \"/extensions/\" directory in the image.  If the contents are in a different directory, the sourcePath for the ImageSource in the BuildConfig must be modified.",
             "displayName": "Extensions Git Repository URL",
             "name": "EXTENSIONS_REPOSITORY_URL",
-            "value": "https://github.com/cvanball/jdv-ose-demos",
+            "value": "https://github.com/jbrannst/jdv-ose-demos",
             "required": true
         },
         {
             "description": "Set this to a branch name, tag or other ref of your extensions repository if you are not using the default branch.",
             "displayName": "Extensions Git Reference",
             "name": "EXTENSIONS_REPOSITORY_REF",
-            "value": "master",
+            "value": "patch-1",
             "required": false
         },
         {
