@@ -25,4 +25,4 @@ oc new-app --template=datavirt63-ext-mysql-psql-s2i
 echo '==============================================='
 echo 'The following urls will allow you to access the Financials VDB via OData4:'
 echo '==============================================='
-echo "http://datavirt-app-jdv-datafederation-demo.$(minishift ip).nip.io/odata4/Financials/All_Customers/CUSTOMER?$format=json'
+echo "http://datavirt-app-jdv-datafederation-demo.$(minishift ip).nip.io/odata4/Financials/All_Customers/CUSTOMER?$format=json"
